@@ -1,8 +1,12 @@
 name: Deploy Garden
 on:
+  # This adds the manual button
+  workflow_dispatch:
   push:
     branches:
-      - v4  # <--- CHANGE THIS if your branch is named 'main'
+      - v4
+      - main
+      - master
 
 jobs:
   deploy:
