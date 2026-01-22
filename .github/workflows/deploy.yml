@@ -1,0 +1,33 @@
+name: Deploy Garden
+on:
+  push:
+    branches:
+      - v4  # <--- CHANGE THIS if your branch is named 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Quartz
+        run: npx quartz build
+
+      - name: Deploy to Oracle
+        uses: easingthemes/ssh-deploy@main
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.ORACLE_IP }}
+          REMOTE_USER: "ubuntu"
+          TARGET: "/var/www/garden/"
+          SOURCE: "public/"
+          ARGS: "-rltgoDzvO --delete"
