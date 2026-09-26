@@ -1,0 +1,7 @@
+- Snack Shack
+- Die Hard
+- Midnight in Paris
+- In the Mood for Love
+- Fallen Angels
+- Blade Runner
+- The Perks of Being a Wallflower
