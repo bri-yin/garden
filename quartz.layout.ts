@@ -8,10 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      "LinkedIn": "https://www.linkedin.com/in/brianyin2",
-      "Math": "https://math.briany.in",
+      LinkedIn: "https://www.linkedin.com/in/brianyin2",
+      Math: "https://math.briany.in",
       "Chess.com": "https://www.chess.com/member/briyin",
-      "Goodreads": "https://www.goodreads.com/brianyin"
+      Goodreads: "https://www.goodreads.com/brianyin",
     },
   }),
 }
@@ -25,6 +25,10 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.ChessRatings(),
+      condition: (page) => page.fileData.slug === "index",
+    }),
     Component.TagList(),
   ],
   left: [

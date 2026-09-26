@@ -1,0 +1,122 @@
+@use "../../styles/variables.scss" as *;
+
+.chess-ratings {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  padding: 1rem;
+
+  .chess-ratings-heading {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 0.85rem;
+
+    h2 {
+      font-size: 1.15rem;
+      margin: 0;
+    }
+
+    p {
+      color: var(--gray);
+      font-size: 0.85rem;
+      margin: 0.15rem 0 0;
+    }
+
+    a {
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+  }
+
+  .chess-rating-grid {
+    display: grid;
+    gap: 0.65rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .chess-rating-card {
+    background: var(--highlight);
+    border-radius: 6px;
+    min-width: 0;
+    padding: 0.7rem;
+
+    .chess-rating-name {
+      color: var(--gray);
+      font-size: 0.8rem;
+      margin: 0;
+    }
+
+    .chess-rating-value {
+      font-size: 1.45rem;
+      font-weight: 650;
+      line-height: 1.3;
+      margin: 0.1rem 0 0;
+    }
+
+    .chess-rating-best {
+      color: var(--gray);
+      font-size: 0.75rem;
+      margin: 0;
+    }
+
+    svg {
+      display: block;
+      height: 34px;
+      margin-top: 0.4rem;
+      overflow: visible;
+      width: 100%;
+    }
+
+    .chess-rating-line {
+      fill: none;
+      stroke: var(--secondary);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 2.5;
+    }
+  }
+
+  .chess-ratings-loading,
+  .chess-ratings-error,
+  .chess-ratings-updated {
+    color: var(--gray);
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .chess-ratings-updated {
+    margin-top: 0.7rem;
+  }
+
+  @media all and not ($desktop) {
+    padding: 0.8rem;
+
+    .chess-rating-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .chess-rating-card {
+      align-items: center;
+      column-gap: 0.75rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      padding: 0.55rem 0.7rem;
+
+      .chess-rating-name,
+      .chess-rating-best {
+        grid-column: 1;
+      }
+
+      .chess-rating-value {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+      }
+
+      svg {
+        display: none;
+      }
+    }
+  }
+}
