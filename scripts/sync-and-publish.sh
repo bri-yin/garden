@@ -20,5 +20,6 @@ if git diff --cached --quiet; then
   exit 0
 fi
 
-git commit -m "Publish Obsidian garden"
-git push origin HEAD
+git commit -m "Publish Obsidian garden" >/dev/null
+git push origin HEAD >/dev/null
+echo "Garden changes pushed; GitHub Actions is deploying them."
