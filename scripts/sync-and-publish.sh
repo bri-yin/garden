@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Obsidian launched from Finder may not inherit Homebrew's PATH.
+export PATH="/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin${PATH:+:$PATH}"
+
 ROOT="/Users/brianyin/garden"
 SOURCE="/Users/brianyin/Documents/Obsidian/brian-vault/Public/"
 DEST="$ROOT/content/"

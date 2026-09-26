@@ -1,4 +1,9 @@
 - Action:
 	- Die Hard
 - Rom-com:
+	- The Big Sick
+	- The Perks of Being a Wallflower
+	- Materialists
+	- Juno
+	- Midnight in Paris
 	- 
