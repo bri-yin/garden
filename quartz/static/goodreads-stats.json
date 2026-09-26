@@ -1,0 +1,274 @@
+{
+  "userId": "175521183",
+  "profileUrl": "https://www.goodreads.com/user/show/175521183-brian-yin",
+  "fetchedAt": "2026-09-26T20:30:03.111Z",
+  "year": 2026,
+  "readBooks": [
+    {
+      "id": "208931300",
+      "title": "Intermezzo",
+      "author": "Sally Rooney",
+      "link": "https://www.goodreads.com/book/show/208931300",
+      "readAt": "2026-03-04",
+      "rating": 3
+    },
+    {
+      "id": "9014",
+      "title": "The Long Walk",
+      "author": "Richard  Bachman",
+      "link": "https://www.goodreads.com/book/show/9014",
+      "readAt": "2026-06-02",
+      "rating": 3
+    },
+    {
+      "id": "34066798",
+      "title": "A Gentleman in Moscow",
+      "author": "Amor Towles",
+      "link": "https://www.goodreads.com/book/show/34066798",
+      "readAt": "2025-10-28",
+      "rating": 3
+    },
+    {
+      "id": "211004916",
+      "title": "Nemesis (Orphan X, #10)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/211004916",
+      "readAt": null,
+      "rating": 3
+    },
+    {
+      "id": "59586621",
+      "title": "The 6:20 Man (The 6:20 Man, #1)",
+      "author": "David Baldacci",
+      "link": "https://www.goodreads.com/book/show/59586621",
+      "readAt": null,
+      "rating": 2
+    },
+    {
+      "id": "61718053",
+      "title": "Happy Place",
+      "author": "Emily Henry",
+      "link": "https://www.goodreads.com/book/show/61718053",
+      "readAt": "2024-08-28",
+      "rating": 3
+    },
+    {
+      "id": "91274427",
+      "title": "What You Are Looking for Is in the Library",
+      "author": "Michiko Aoyama",
+      "link": "https://www.goodreads.com/book/show/91274427",
+      "readAt": "2024-08-16",
+      "rating": 4
+    },
+    {
+      "id": "41057294",
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "link": "https://www.goodreads.com/book/show/41057294",
+      "readAt": "2024-06-14",
+      "rating": 5
+    },
+    {
+      "id": "126919150",
+      "title": "Lone Wolf (Orphan X, #9)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/126919150",
+      "readAt": "2024-03-19",
+      "rating": 4
+    },
+    {
+      "id": "176378",
+      "title": "Drive (Drive, #1)",
+      "author": "James Sallis",
+      "link": "https://www.goodreads.com/book/show/176378",
+      "readAt": "2024-03-11",
+      "rating": 4
+    },
+    {
+      "id": "127152907",
+      "title": "In the Likely Event",
+      "author": "Rebecca Yarros",
+      "link": "https://www.goodreads.com/book/show/127152907",
+      "readAt": "2024-02-29",
+      "rating": 2
+    },
+    {
+      "id": "61177813",
+      "title": "Burner (Gray Man, #12)",
+      "author": "Mark Greaney",
+      "link": "https://www.goodreads.com/book/show/61177813",
+      "readAt": "2024-02-26",
+      "rating": 3
+    },
+    {
+      "id": "54493401",
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "link": "https://www.goodreads.com/book/show/54493401",
+      "readAt": null,
+      "rating": 3
+    },
+    {
+      "id": "27213329",
+      "title": "Grit: The Power of Passion and Perseverance",
+      "author": "Angela Duckworth",
+      "link": "https://www.goodreads.com/book/show/27213329",
+      "readAt": null,
+      "rating": 3
+    },
+    {
+      "id": "129344",
+      "title": "Speedboat",
+      "author": "Renata Adler",
+      "link": "https://www.goodreads.com/book/show/129344",
+      "readAt": null,
+      "rating": 4
+    },
+    {
+      "id": "28676",
+      "title": "American Psycho",
+      "author": "Bret Easton Ellis",
+      "link": "https://www.goodreads.com/book/show/28676",
+      "readAt": null,
+      "rating": 3
+    },
+    {
+      "id": "24611449",
+      "title": "Back Blast (Gray Man, #5)",
+      "author": "Mark Greaney",
+      "link": "https://www.goodreads.com/book/show/24611449",
+      "readAt": null,
+      "rating": 2
+    },
+    {
+      "id": "17166242",
+      "title": "Dead Eye (Gray Man, #4)",
+      "author": "Mark Greaney",
+      "link": "https://www.goodreads.com/book/show/17166242",
+      "readAt": null,
+      "rating": 3
+    },
+    {
+      "id": "10633176",
+      "title": "Ballistic (Gray Man, #3)",
+      "author": "Mark Greaney",
+      "link": "https://www.goodreads.com/book/show/10633176",
+      "readAt": null,
+      "rating": 2
+    },
+    {
+      "id": "8423597",
+      "title": "On Target (Gray Man, #2)",
+      "author": "Mark Greaney",
+      "link": "https://www.goodreads.com/book/show/8423597",
+      "readAt": null,
+      "rating": 4
+    },
+    {
+      "id": "6547865",
+      "title": "The Gray Man (Gray Man, #1)",
+      "author": "Mark Greaney",
+      "link": "https://www.goodreads.com/book/show/6547865",
+      "readAt": null,
+      "rating": 5
+    },
+    {
+      "id": "12999144",
+      "title": "The Survivor",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/12999144",
+      "readAt": null,
+      "rating": 5
+    },
+    {
+      "id": "60560031",
+      "title": "The Last Orphan (Orphan X #8)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/60560031",
+      "readAt": null,
+      "rating": 3
+    },
+    {
+      "id": "57693476",
+      "title": "Dark Horse (Orphan X, #7)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/57693476",
+      "readAt": null,
+      "rating": 4
+    },
+    {
+      "id": "53138122",
+      "title": "Prodigal Son (Orphan X, #6)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/53138122",
+      "readAt": null,
+      "rating": 3
+    },
+    {
+      "id": "45046789",
+      "title": "Into the Fire (Orphan X, #5)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/45046789",
+      "readAt": null,
+      "rating": 5
+    },
+    {
+      "id": "39863167",
+      "title": "Out of the Dark (Orphan X, #4)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/39863167",
+      "readAt": null,
+      "rating": 3
+    },
+    {
+      "id": "40996328",
+      "title": "Hellbent (Orphan X, #3)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/40996328",
+      "readAt": null,
+      "rating": 4
+    },
+    {
+      "id": "40996287",
+      "title": "The Nowhere Man (Orphan X, #2)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/40996287",
+      "readAt": null,
+      "rating": 4
+    },
+    {
+      "id": "40874079",
+      "title": "Orphan X (Orphan X, #1)",
+      "author": "Gregg Hurwitz",
+      "link": "https://www.goodreads.com/book/show/40874079",
+      "readAt": null,
+      "rating": 5
+    },
+    {
+      "id": "41721428",
+      "title": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+      "author": "David Goggins",
+      "link": "https://www.goodreads.com/book/show/41721428",
+      "readAt": null,
+      "rating": 5
+    }
+  ],
+  "currentlyReading": [
+    {
+      "id": "230118837",
+      "title": "The Eleventh Hour: A Quintet of Stories",
+      "author": "Salman Rushdie",
+      "link": "https://www.goodreads.com/book/show/230118837",
+      "readAt": null,
+      "rating": 0
+    },
+    {
+      "id": "222348800",
+      "title": "The Wedding People",
+      "author": "Alison Espach",
+      "link": "https://www.goodreads.com/book/show/222348800",
+      "readAt": null,
+      "rating": 0
+    }
+  ]
+}

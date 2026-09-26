@@ -1,0 +1,136 @@
+@use "../../styles/variables.scss" as *;
+
+.goodreads-stats {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  padding: 1rem;
+
+  .goodreads-stats-heading {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 0.85rem;
+
+    h2 {
+      font-size: 1.15rem;
+      margin: 0;
+    }
+
+    p {
+      color: var(--gray);
+      font-size: 0.85rem;
+      margin: 0.15rem 0 0;
+    }
+
+    a {
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+  }
+
+  .goodreads-stats-grid {
+    display: grid;
+    gap: 0.65rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .goodreads-stat-card {
+    background: var(--highlight);
+    border-radius: 6px;
+    min-width: 0;
+    padding: 0.7rem;
+
+    .goodreads-stat-label {
+      color: var(--gray);
+      font-size: 0.8rem;
+      margin: 0;
+    }
+
+    .goodreads-stat-value {
+      font-size: 1.45rem;
+      font-weight: 650;
+      line-height: 1.3;
+      margin: 0.1rem 0 0;
+    }
+
+    .goodreads-stat-detail {
+      color: var(--gray);
+      font-size: 0.75rem;
+      margin: 0.15rem 0 0;
+    }
+
+    &.goodreads-latest-card .goodreads-stat-value {
+      font-size: 1rem;
+      line-height: 1.35;
+    }
+  }
+
+  .goodreads-current-list {
+    border-top: 1px solid var(--lightgray);
+    margin-top: 0.75rem;
+    padding-top: 0.65rem;
+
+    &:empty {
+      display: none;
+    }
+
+    h3 {
+      font-size: 0.85rem;
+      margin: 0 0 0.35rem;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      font-size: 0.85rem;
+      margin: 0.2rem 0;
+    }
+
+    .goodreads-book-author {
+      color: var(--gray);
+    }
+  }
+
+  .goodreads-stats-loading,
+  .goodreads-stats-error,
+  .goodreads-stats-updated {
+    color: var(--gray);
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .goodreads-stats-updated {
+    margin-top: 0.7rem;
+  }
+
+  @media all and not ($desktop) {
+    padding: 0.8rem;
+
+    .goodreads-stats-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .goodreads-stat-card {
+      align-items: center;
+      column-gap: 0.75rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      padding: 0.55rem 0.7rem;
+
+      .goodreads-stat-label,
+      .goodreads-stat-detail {
+        grid-column: 1;
+      }
+
+      .goodreads-stat-value {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+      }
+    }
+  }
+}

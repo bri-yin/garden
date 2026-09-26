@@ -27,9 +27,10 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Update Chess.com rating history
+      - name: Update Chess.com and Goodreads stats
         run: |
           node scripts/update-chess-ratings.mjs
+          node scripts/update-goodreads-stats.mjs
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add quartz/static/chess-ratings.json

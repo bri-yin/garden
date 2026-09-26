@@ -29,6 +29,10 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.ChessRatings(),
       condition: (page) => page.fileData.slug === "index",
     }),
+    Component.ConditionalRender({
+      component: Component.GoodreadsStats(),
+      condition: (page) => page.fileData.slug === "index",
+    }),
     Component.TagList(),
   ],
   left: [

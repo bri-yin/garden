@@ -24,6 +24,7 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import ChessRatings from "./ChessRatings"
+import GoodreadsStats from "./GoodreadsStats"
 
 export {
   ArticleTitle,
@@ -52,4 +53,5 @@ export {
   Flex,
   ConditionalRender,
   ChessRatings,
+  GoodreadsStats,
 }
