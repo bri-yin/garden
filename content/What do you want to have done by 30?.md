@@ -1,15 +1,15 @@
 
-Hike the wonderland trail in Washington - Brian
-Attend gastronomy school - Charles
-Hold my child - Prabhav
-Run a big marathon - Lisa
-Plant and maintain a garden - Anthony
-Get good at guitar - Daniel
-Have a million dollars - Nini
-Sit in a Parisian cafe eat a croissant and people watch  - Nicole
-Compete in a MMA bout - Brian  2
-I hope to have a lot of cool art I found myself (collector of old things yasss) - Evelyn
-Black out in Italy 
-Live in a different country for a year - sierras
-Fulbright in Zambia  - Kaleb
-It would be sweet to run the Boston marathon - Varesh 
+- Hike the wonderland trail in Washington - Brian
+- Attend gastronomy school - Charles
+- Hold my child - Prabhav
+- Run a big marathon - Lisa
+- Plant and maintain a garden - Anthony
+- Get good at guitar - Daniel
+- Have a million dollars - Nini
+- Sit in a Parisian cafe eat a croissant and people watch  - Nicole
+- Compete in a MMA bout - Brian  2
+- I hope to have a lot of cool art I found myself (collector of old things yasss) - Evelyn
+- Black out in Italy 
+- Live in a different country for a year - sierras
+- Fulbright in Zambia  - Kaleb
+- It would be sweet to run the Boston marathon - Varesh 
