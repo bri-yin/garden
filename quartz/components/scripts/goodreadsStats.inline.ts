@@ -97,7 +97,7 @@ function renderGoodreads(
   list.replaceChildren()
   if (data.currentlyReading.length > 0) {
     const heading = document.createElement("h3")
-    heading.textContent = "On your currently reading shelf"
+    heading.textContent = "Currently reading"
     const books = document.createElement("ul")
     for (const book of data.currentlyReading) {
       const item = document.createElement("li")
