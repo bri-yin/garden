@@ -10,7 +10,7 @@ const ChessRatings: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
     <section class="chess-ratings" aria-labelledby="chess-ratings-title">
       <div class="chess-ratings-heading">
         <div>
-          <h2 id="chess-ratings-title">Chess ratings</h2>
+          <h2 id="chess-ratings-title">Chess</h2>
           <p>Chess.com · briyin</p>
         </div>
         <a href="https://www.chess.com/member/briyin" target="_blank" rel="noreferrer">
