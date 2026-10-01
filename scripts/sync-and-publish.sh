@@ -17,12 +17,34 @@ mkdir -p "$DEST"
 rsync -a --delete --exclude='.DS_Store' "$SOURCE" "$DEST"
 
 cd "$ROOT"
-git add -A -- content quartz.config.ts .github/workflows/deploy.yml scripts/sync-and-publish.sh
-if git diff --cached --quiet; then
-  echo "No public garden changes to publish."
-  exit 0
+BRANCH="$(git branch --show-current)"
+if [[ -z "$BRANCH" ]]; then
+  echo "Garden is not on a branch; stopping without pushing." >&2
+  exit 1
 fi
 
-git commit -m "Publish Obsidian garden" >/dev/null
-git push origin HEAD >/dev/null
-echo "Garden changes pushed; GitHub Actions is deploying them."
+git add -A -- content quartz.config.ts .github/workflows/deploy.yml scripts/sync-and-publish.sh
+if ! git diff --cached --quiet; then
+  git commit -m "Publish Obsidian garden" >/dev/null
+fi
+
+for attempt in 1 2 3; do
+  git fetch origin
+  git rebase "origin/$BRANCH"
+
+  read -r behind ahead < <(git rev-list --left-right --count "origin/$BRANCH...HEAD")
+  if (( ahead == 0 )); then
+    echo "Garden is already up to date; nothing to push."
+    exit 0
+  fi
+
+  if git push origin "HEAD:refs/heads/$BRANCH" >/dev/null; then
+    echo "Garden changes pushed; GitHub Actions is deploying them."
+    exit 0
+  fi
+
+  echo "GitHub changed during the push; retrying ($attempt/3)." >&2
+done
+
+echo "Could not push the garden after three tries." >&2
+exit 1
