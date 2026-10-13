@@ -1,7 +1,7 @@
 {
   "username": "briyin",
   "profileUrl": "https://www.chess.com/member/briyin",
-  "fetchedAt": "2026-10-12T19:01:41.087Z",
+  "fetchedAt": "2026-10-13T16:56:24.983Z",
   "history": [
     {
       "date": "2026-09-26",
@@ -329,6 +329,26 @@
         "rapid": {
           "rating": 1400,
           "date": 1791760817,
+          "best": 1429
+        },
+        "blitz": {
+          "rating": 800,
+          "date": 1791684519,
+          "best": 1029
+        },
+        "bullet": {
+          "rating": 964,
+          "date": 1791399542,
+          "best": 1051
+        }
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "ratings": {
+        "rapid": {
+          "rating": 1408,
+          "date": 1791902995,
           "best": 1429
         },
         "blitz": {
